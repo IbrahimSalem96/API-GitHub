@@ -12,6 +12,7 @@
     --textwhite: #ffffff;
     --texthover: #a1a3a6;
 }
+
 body {
     font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-size: 14px;
@@ -30,15 +31,18 @@ body {
 .hid {
     display: none;
 }
-#darkmode-btn{
+
+#darkmode-btn {
     background-color: transparent;
     border: none;
     cursor: pointer;
     color: white;
 }
-#darkmode-btn i{
+
+#darkmode-btn i {
     font-size: 16px;
 }
+
 /*############################################*/
 header {
     padding: 15px 30px;
@@ -129,8 +133,8 @@ header .right-nav {
     font-size: 16px;
 }
 
-header .right-nav aside > i,
-header .right-nav aside > i i,
+header .right-nav aside>i,
+header .right-nav aside>i i,
 header .right-nav .img-center,
 header .left-nav input:hover {
     cursor: pointer;
@@ -390,14 +394,21 @@ footer .hr {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+}
+
+.footer .list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
     padding: 15px 0;
 }
 
-.footer .logo-end {
+.footer .logo-end ul {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     padding: 0 100px 0 0;
 }
 
@@ -407,7 +418,7 @@ footer .hr {
 
 .footer li a {
     text-decoration: none;
-    color: #3d89e2;
+    color: #115392;
     font-size: 13px;
 }
 
@@ -518,18 +529,19 @@ footer .hr {
     -webkit-animation: spin 2s linear infinite;
     /* Safari */
     animation: spin 2s linear infinite;
-  }
+}
 
-  @keyframes spin {
+@keyframes spin {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  .load{
+}
+
+.load {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -539,7 +551,8 @@ footer .hr {
     background-color: white;
     z-index: 2;
     display: none;
-  }
+}
+
 .containerA {
     display: flex;
     justify-content: space-between;
@@ -550,10 +563,12 @@ footer .hr {
     border-radius: 10px;
     overflow: hidden;
 }
-.gitpage{
+
+.gitpage {
     text-decoration: none;
     color: white;
 }
+
 .center {
     height: calc(100vh - 70px - 105);
 }
@@ -635,15 +650,17 @@ footer .hr {
 .input-field::placeholder {
     color: #999999;
 }
-.sub{
+
+.sub {
     display: flex;
     justify-content: center;
     padding-top: 50px;
 }
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #17c3d1;
+    background-color: #0B6165;
     color: #ffffff;
     border: none;
     border-radius: 5px;
